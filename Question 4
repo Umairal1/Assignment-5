@@ -1,0 +1,9 @@
+while True:
+    input_string = input("Enter a string (or 'done' to exit): ")
+
+    if input_string.lower() == 'done':
+        print("Exiting...")
+        break
+    processed_string = input_string[::-1]
+    
+    print("Processed string:", processed_string)
